@@ -37,8 +37,7 @@ FTK Imager can capture volatile memory (RAM) from a running system.
 
 Select **File → Capture Memory** in FTK Imager.
 
-![Memory Capture](images/10-memory-capture.png)
-
+<img width="395" height="347" alt="Screenshot 2026-07-27 231027" src="https://github.com/user-attachments/assets/966e175c-eb1c-47cc-9334-2634a5c9f0e5" />
 The Memory Capture window provides options for:
 
 - Destination path
