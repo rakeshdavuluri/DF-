@@ -57,7 +57,10 @@ Start the packet capture.
 
 ### Output
 
+<img width="947" height="477" alt="2" src="https://github.com/user-attachments/assets/9f823b5a-2949-4ee7-b511-f874eefd4ead" />
+
 <img width="793" height="597" alt="1" src="https://github.com/user-attachments/assets/7ff19f5a-326d-4658-ac8b-e0763b2f110f" />
+
 ---
 
 ## Step 2: Open the Test Website
@@ -80,7 +83,8 @@ After completing the login process, return to Wireshark.
 Wireshark captures many different types of network packets.
 
 To specifically analyze HTTP traffic, use a display filter.
-<img width="1892" height="562" alt="5" src="https://github.com/user-attachments/assets/ea39f1f9-1f5a-47f5-aa1e-13f1c4148dd0" />
+
+<img width="1621" height="342" alt="3" src="https://github.com/user-attachments/assets/8451b69e-4913-4a8b-950b-9a11e67ebf53" />
 
 
 ---
@@ -88,8 +92,18 @@ To specifically analyze HTTP traffic, use a display filter.
 ## Step 4: Apply the HTTP Filter
 
 In the Wireshark display filter bar, enter:
-<img width="685" height="303" alt="6" src="https://github.com/user-attachments/assets/a8e020f6-de2c-45d3-a81b-98652a3420bc" />
-
+<img width="1892" height="562" alt="5" src="https://github.com/user-attachments/assets/08a22601-b857-40de-84d9-8e248b81adfe" />
 
 ```text
 http
+
+```
+
+
+## Step 5: Inspect HTTP Form Data
+
+Select the HTTP request generated during the login operation and inspect the HTTP form data in the packet details.
+
+Select the HTTP request generated during the login operation and inspect the HTTP form data in the packet details.
+<img width="685" height="303" alt="6" src="https://github.com/user-attachments/assets/503f35f0-04e8-4a75-b203-cf2a1203bb6f" />
+
